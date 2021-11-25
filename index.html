@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Dosis:wght@200;600&family=Raleway:wght@100;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Dosis:wght@200;600&family=Raleway:wght@100;500&display=swap"
+        rel="stylesheet">
     <title>Weather</title>
 </head>
 
 <body>
+
     <div class="box">
         <div class="search">
-            <form method="post">
-                <input type="text" name="city" class="input">
-                <button type="submit" class="srch">Search</button>
-            </form>
+            <input type="text" name="city" class="input">
+            <button type="submit" class="srch">Search</button>
         </div>
         <div class="weather">
-            <div class="city">New york</div>
-            <div class="temp">25°C</div>
-            <div class="icon"></div>
-            <div class="detail description">Cloudy</div>
-            <div class="detail humid">Humidity: 60%</div>
-            <div class="detail wind">Wind speed: 5km/h </div>
+            <div class="city" id="city">New york</div>
+            <div class="temp" id="temp">25°C</div>
+            <img class="icon" src="https://openweathermap.org/img/wn/02d.png">
+            <div class="detail description" id="disc">Cloudy</div>
+            <div class="detail humid" id="humid">Humidity: 60%</div>
+            <div class="detail wind" id="wind">Wind speed: 5km/h </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
