@@ -2,6 +2,7 @@
 Website which displays weather using openweathermap api
 
 ##How to use:
+
 1)Create an account on https://openweathermap.org/
 
 2)Generate Your API key
