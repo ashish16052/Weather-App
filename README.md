@@ -9,4 +9,4 @@ Website which displays weather using openweathermap api
 
 3)Insert API key in script.js
 
-Weather site is ready to use, Enter any city name: https://ashish16052.github.io/Weather-App/
+Weather site is ready to use, Enter any city name
